@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nnadid.chem101" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/btn"
+        android:label="@string/app_name"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CustomArrayAdapter"
+            android:label="CHEM101 - ORGANIC" >
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+
+        <activity
+            android:name=".InOgarnic"
+            android:label="CHEM101 - ORGANIC" >
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+
+
+        <activity
+            android:name=".CustomArrayINORGANIC"
+            android:label="CHEM101 - ORGANIC" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+
+    </application>
+
+</manifest>
